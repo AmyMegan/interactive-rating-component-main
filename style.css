@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+}
+
+.border {
+    border: solid;
+    border-color: white;
+}
+
+.image {
+  padding: 1%;
+  border-radius: 40px;
+  background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+   color: hsl(0, 0%, 100%);
+   font-weight: 700;
+}
+
+h2 {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(213, 19%, 18%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rating {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
