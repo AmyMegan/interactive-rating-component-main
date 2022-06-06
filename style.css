@@ -1,8 +1,8 @@
 body {
     background-color: black;
     font-family: 'Overpass', sans-serif;
+    color: white;
 }
-
 .border {
     border: solid;
     border-color: white;
