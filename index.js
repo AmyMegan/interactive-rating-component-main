@@ -8,7 +8,8 @@ function submit() {
 
 
     if(ratingOne.checked==true) { 
-    feedback.innerHTML = `You selected ${ratingOne.value} of 5 Thank you! We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!`;
+    feedback.innerHTML = `<img src="images/illustration-thank-you.svg"> <p>You selected ${ratingOne.value} of 5 </p> <h1>Thank you! </h1> 
+    <p> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>`;
     }
     else if (ratingTwo.checked==true) {
     feedback.innerHTML = `You selected ${ratingTwo.value} of 5 Thank you! We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!`;
